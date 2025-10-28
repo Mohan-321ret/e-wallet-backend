@@ -18,7 +18,7 @@ import com.e_wallet_system.backend.models.wallet;
 import com.e_wallet_system.backend.service.WalletService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // Allows frontend React app to call backend
+@CrossOrigin(origins = "*") // Allows frontend React app to call backend
 public class WalletController {
 
     @Autowired
