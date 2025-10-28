@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://e-wallet-frontend-seven.vercel.app/") // your React app
+                        .allowedOrigins("https://e-wallet-frontend-seven.vercel.app") // your React app
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
             }
