@@ -42,10 +42,10 @@
 		</dependency>
 <!-- db connect  -->
 		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.7.2</version>
+</dependency>
 		<!-- starter -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
